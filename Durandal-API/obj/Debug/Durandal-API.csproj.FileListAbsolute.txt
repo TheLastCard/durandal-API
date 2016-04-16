@@ -78,5 +78,5 @@ D:\learning\durandal-api\Durandal-API\obj\Debug\Durandal-API.pdb
 D:\learning\durandal-api\Durandal-API\bin\System.Web.Cors.dll
 D:\learning\durandal-api\Durandal-API\bin\System.Web.Http.Cors.dll
 D:\learning\durandal-api\Durandal-API\bin\System.Web.Http.Cors.xml
-D:\learning\durandal-api\Durandal-API\obj\Debug\Durandal_API.Migrations.Addedsimpleproductmodel.resources
+D:\learning\durandal-api\Durandal-API\obj\Debug\Durandal_API.Migrations.InitialmigrationforDurandalDB.resources
 D:\learning\durandal-api\Durandal-API\obj\Debug\Durandal-API.csproj.GenerateResource.Cache

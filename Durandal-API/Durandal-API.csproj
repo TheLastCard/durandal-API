@@ -220,9 +220,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201604162024181_Added simple product model.cs" />
-    <Compile Include="Migrations\201604162024181_Added simple product model.Designer.cs">
-      <DependentUpon>201604162024181_Added simple product model.cs</DependentUpon>
+    <Compile Include="Migrations\201604162125137_Initial migration for DurandalDB.cs" />
+    <Compile Include="Migrations\201604162125137_Initial migration for DurandalDB.Designer.cs">
+      <DependentUpon>201604162125137_Initial migration for DurandalDB.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
@@ -303,8 +303,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201604162024181_Added simple product model.resx">
-      <DependentUpon>201604162024181_Added simple product model.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201604162125137_Initial migration for DurandalDB.resx">
+      <DependentUpon>201604162125137_Initial migration for DurandalDB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
