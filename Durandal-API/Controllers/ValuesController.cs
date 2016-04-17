@@ -9,7 +9,6 @@ using System.Web.Http.Cors;
 namespace Durandal_API.Controllers
 {
     //[Authorize]
-    [EnableCors(origins: "http://localhost:9000", headers: "*", methods: "*")]
     public class ValuesController : ApiController
     {
         // GET api/values

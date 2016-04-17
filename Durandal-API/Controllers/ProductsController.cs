@@ -14,7 +14,6 @@ using System.Web.Http.Cors;
 
 namespace Durandal_API.Controllers
 {
-    [EnableCors(origins: "http://localhost:9000", headers: "*", methods: "*")]
     public class ProductsController : ApiController
     {
         private DurandalDB db = new DurandalDB();
