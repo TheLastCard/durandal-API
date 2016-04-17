@@ -80,3 +80,4 @@ D:\learning\durandal-api\Durandal-API\bin\System.Web.Http.Cors.dll
 D:\learning\durandal-api\Durandal-API\bin\System.Web.Http.Cors.xml
 D:\learning\durandal-api\Durandal-API\obj\Debug\Durandal_API.Migrations.InitialmigrationforDurandalDB.resources
 D:\learning\durandal-api\Durandal-API\obj\Debug\Durandal-API.csproj.GenerateResource.Cache
+D:\learning\durandal-api\Durandal-API\obj\Debug\Durandal_API.Migrations.Take2.resources

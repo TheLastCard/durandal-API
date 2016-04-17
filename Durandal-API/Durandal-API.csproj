@@ -214,6 +214,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BasketController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -224,9 +225,14 @@
     <Compile Include="Migrations\201604162125137_Initial migration for DurandalDB.Designer.cs">
       <DependentUpon>201604162125137_Initial migration for DurandalDB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201604171252157_Take 2.cs" />
+    <Compile Include="Migrations\201604171252157_Take 2.Designer.cs">
+      <DependentUpon>201604171252157_Take 2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\CategoryModel.cs" />
     <Compile Include="Models\DurandalDB.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ProductDBInitializer.cs" />
@@ -305,6 +311,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201604162125137_Initial migration for DurandalDB.resx">
       <DependentUpon>201604162125137_Initial migration for DurandalDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604171252157_Take 2.resx">
+      <DependentUpon>201604171252157_Take 2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

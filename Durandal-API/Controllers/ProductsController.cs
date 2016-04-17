@@ -20,15 +20,17 @@ namespace Durandal_API.Controllers
         private DurandalDB db = new DurandalDB();
 
         // GET: api/Products
-        public IQueryable<ProductModel> GetProducts()
+        public async Task<ICollection<ProductModel>> GetProducts()
         {
-            return db.Products;
+            db.Configuration.ProxyCreationEnabled = false;
+            return await db.Products.ToListAsync();
         }
 
         // GET: api/Products/5
         [ResponseType(typeof(ProductModel))]
         public async Task<IHttpActionResult> GetProductModel(int id)
         {
+            db.Configuration.ProxyCreationEnabled = false;
             ProductModel productModel = await db.Products.FindAsync(id);
             if (productModel == null)
             {
