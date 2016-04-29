@@ -38,3 +38,4 @@ D:\learning\durandal-api\Durandal-API.Tests\bin\Debug\System.Web.WebPages.Razor.
 D:\learning\durandal-api\Durandal-API.Tests\obj\Debug\Durandal-API.Tests.csprojResolveAssemblyReference.cache
 D:\learning\durandal-api\Durandal-API.Tests\obj\Debug\Durandal-API.Tests.dll
 D:\learning\durandal-api\Durandal-API.Tests\obj\Debug\Durandal-API.Tests.pdb
+D:\learning\DurandalProject\durandal-API\Durandal-API.Tests\obj\Debug\Durandal-API.Tests.csprojResolveAssemblyReference.cache

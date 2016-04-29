@@ -223,23 +223,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201604162125137_Initial migration for DurandalDB.cs" />
-    <Compile Include="Migrations\201604162125137_Initial migration for DurandalDB.Designer.cs">
-      <DependentUpon>201604162125137_Initial migration for DurandalDB.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201604171252157_Take 2.cs" />
-    <Compile Include="Migrations\201604171252157_Take 2.Designer.cs">
-      <DependentUpon>201604171252157_Take 2.cs</DependentUpon>
+    <Compile Include="Migrations\201604291422330_Init.cs" />
+    <Compile Include="Migrations\201604291422330_Init.Designer.cs">
+      <DependentUpon>201604291422330_Init.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Basket\Basket.cs" />
     <Compile Include="Models\Basket\BasketItem.cs" />
     <Compile Include="Models\CategoryModel.cs" />
     <Compile Include="Models\DurandalDB.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\ProductDBInitializer.cs" />
     <Compile Include="Models\ProductModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
@@ -285,7 +281,9 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -313,11 +311,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201604162125137_Initial migration for DurandalDB.resx">
-      <DependentUpon>201604162125137_Initial migration for DurandalDB.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201604171252157_Take 2.resx">
-      <DependentUpon>201604171252157_Take 2.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201604291422330_Init.resx">
+      <DependentUpon>201604291422330_Init.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
