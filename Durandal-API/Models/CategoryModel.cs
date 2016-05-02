@@ -9,6 +9,11 @@ namespace Durandal_API.Models
 {
     public class CategoryModel
     {
+        public CategoryModel()
+        {
+
+        }
+
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }
@@ -24,5 +29,6 @@ namespace Durandal_API.Models
         {
             this.Tags = string.Join(",", tags);
         }
+
     }
 }

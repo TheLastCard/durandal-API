@@ -163,3 +163,4 @@ D:\learning\DurandalProject\durandal-API\Durandal-API\obj\Debug\Durandal-API.dll
 D:\learning\DurandalProject\durandal-API\Durandal-API\obj\Debug\Durandal-API.pdb
 D:\learning\DurandalProject\durandal-API\Durandal-API\obj\Debug\Durandal_API.Migrations.Init.resources
 D:\learning\DurandalProject\durandal-API\Durandal-API\obj\Debug\Durandal-API.csproj.GenerateResource.Cache
+D:\learning\DurandalProject\durandal-API\Durandal-API\obj\Debug\Durandal_API.Migrations.Updateofmodelscategory.resources

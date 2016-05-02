@@ -30,7 +30,7 @@ namespace Durandal_API.Controllers
         public async Task<IHttpActionResult> GetProductModel(int id)
         {
             db.Configuration.ProxyCreationEnabled = false;
-            ProductModel productModel = await db.Products.FindAsync(id);
+            ProductModel productModel = await db.Products.Include(x => x.Category).FirstAsync(x => x.Id == id);
             if (productModel == null)
             {
                 return NotFound();
@@ -52,6 +52,9 @@ namespace Durandal_API.Controllers
             {
                 return BadRequest();
             }
+
+            var categoryId = productModel.Id;
+            productModel.Category = db.Categories.Find(categoryId);
 
             db.Entry(productModel).State = EntityState.Modified;
 

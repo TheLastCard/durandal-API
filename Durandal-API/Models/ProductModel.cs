@@ -17,5 +17,6 @@ namespace Durandal_API.Models
         public DateTime LastUpdated { get; set; }
         public int StorageAmount { get; set; }
         public virtual CategoryModel Category { get; set; }
+        public int CategoryId { get; set; }
     }
 }
